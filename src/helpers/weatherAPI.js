@@ -1,5 +1,6 @@
 // Importando o Token para usar como chave da API
-const TOKEN = import.meta.env.VITE_TOKEN;
+// const TOKEN = import.meta.env.VITE_TOKEN;
+const TOKEN = 'c4838c19d4ac48f0b1a202458232505';
 
 export const searchCities = async (nomeCid) => {
   try {

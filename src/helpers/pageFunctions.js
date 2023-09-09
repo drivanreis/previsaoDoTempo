@@ -2,7 +2,8 @@
 import { searchCities, getWeatherByCity } from './weatherAPI';
 
 // Importando o Token para usar como chave da API
-const TOKEN = import.meta.env.VITE_TOKEN;
+// const TOKEN = import.meta.env.VITE_TOKEN;
+const TOKEN = 'c4838c19d4ac48f0b1a202458232505';
 
 // Fatorando codigo: Criei uma função que cria elementos HTML.
 // A função pede: a tag, a className e o Conteudo do elemento.
